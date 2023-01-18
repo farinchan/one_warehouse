@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/hari_ini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hari Ini"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:padding="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/kemarin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kemarin"
+        android:textColor="@color/black"
+
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="5dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/bulan_ini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bulan Ini"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="5dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/semua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semua"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/pilih_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Tanggal sendiri"
+        android:textColor="@color/black"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="5dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

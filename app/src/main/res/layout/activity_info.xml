@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".profileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#293859" />
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_back_white" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info Aplikasi"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_below="@+id/topbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="16dp"
+      android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="ONE WAREHOUSE"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="    Aplikasi kami mempermudah usser dalam pendataan barang pada sebuah toko atau gudang, dimanapun dan kapanpun usser dapat mengecek pendataan pada tokonya. Sehingga usser tidak perlu melakukan pendataan secara manual atau menggunakan buku.  "
+          android:textSize="17sp"
+          android:textStyle="" />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="130dp"
+              android:layout_height="130dp"
+              android:src="@drawable/uinsmdd" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAlignment="center"
+              android:text="Aplikasi Management Gudang &amp; Toko\n(One Warehouse)"
+              android:textSize="20sp"
+              android:textStyle="bold" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAlignment="center"
+              android:text="UAS MOBILE PROGRAMMING"
+              android:textSize="17sp"
+              android:textStyle="bold" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAlignment="center"
+              android:text="Dosen Pengampu: Efmi Maiyana, M.Kom"
+              android:textSize="17sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Developed"
+              android:textSize="17sp"
+              android:layout_marginTop="20dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Fajri Rinaldi Chan"
+              android:textSize="17sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Hennysya Putri"
+              android:textSize="17sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Imam Dwi Jaya Tanjung"
+              android:textSize="17sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Muhammad Ramadani"
+              android:textSize="17sp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Windy Wulandari"
+              android:textSize="17sp"
+              android:textStyle="bold" />
+
+
+      </LinearLayout>
+
+
+  </LinearLayout>
+
+
+</RelativeLayout>

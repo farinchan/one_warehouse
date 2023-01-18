@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".AddCategoryActivity">
+    <TextView
+        android:id="@+id/dashboard_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="Tambahkan Jenis Kategori Dari Product Anda Dibawah Ini"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Kategori *"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#A3000000"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_Category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="jenis Kategori"
+            android:padding="15dp"
+            android:background="@drawable/input_style"
+            android:layout_marginTop="5dp"
+            android:drawableTint="#65000000"
+            android:textSize="18dp"
+            android:textColorHint="#AB000000"
+            android:drawablePadding="13dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_addCategory"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/btncolor1"
+        android:padding="15dp"
+        android:text="Tambahkan"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        app:cornerRadius="50dp" />
+
+</LinearLayout>

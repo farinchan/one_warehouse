@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="42dp"
+            app:srcCompat="@drawable/right" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Cek Harga"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="320dp"
+
+            android:hint="Masukkkan Barcode atau Nama Barang"
+            android:paddingVertical="10dp"
+            android:background="@drawable/input_style"
+            android:layout_marginTop="5dp"
+            android:drawableTint="#65000000"
+            android:textSize="16dp"
+            android:textColorHint="#AB000000"
+            android:drawablePadding="13dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="616dp"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/qr_code" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
